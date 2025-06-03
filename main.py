@@ -40,12 +40,8 @@ if __name__ == '__main__':
     screen = app.primaryScreen()
     size = screen.size()
 
-    # 🔥 Inisialisasi HeatmapViewer
-    # viewer = HeatmapViewer()
-
-    # 🔧 Buat window dan kirim viewer
+    
     main = Window(size=size, title="Industrial Visualizer")
-    # main.setHeatmapViewer(viewer)  # ✅ Kirim viewer ke Window agar bisa diteruskan
 
     # Tampilkan GUI
     main.show()
